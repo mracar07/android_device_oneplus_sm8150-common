@@ -9,4 +9,7 @@
     <privapp-permissions package="com.google.android.as">
         <permission name="android.permission.PACKAGE_USAGE_STATS"/>
     </privapp-permissions>
+    <privapp-permissions package="com.google.android.apps.wellbeing">
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+    </privapp-permissions>
 </permissions>
