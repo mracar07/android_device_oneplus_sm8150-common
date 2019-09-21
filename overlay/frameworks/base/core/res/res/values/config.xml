@@ -418,4 +418,7 @@
          and one pSIM) -->
     <integer name="config_num_physical_slots">2</integer>
 
+    <!-- Device have FOD -->
+    <bool name="config_mHasFod">true</bool>
+
 </resources>
