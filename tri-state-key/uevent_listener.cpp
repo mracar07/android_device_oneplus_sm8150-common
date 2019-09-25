@@ -34,7 +34,6 @@ static void ParseEvent(const char* msg, Uevent* uevent) {
     uevent->state.clear();
 
     while (*msg) {
-        LOG(ERROR) << "msg=" << msg;
         if (!strncmp(msg, "ACTION=", 7)) {
             msg += 7;
             uevent->action = msg;

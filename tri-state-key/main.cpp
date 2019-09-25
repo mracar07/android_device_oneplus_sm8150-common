@@ -75,8 +75,6 @@ int main() {
         int err;
         struct input_event event {};
 
-        LOG(ERROR) << "action=" << uevent.action << " name=" << uevent.name << " state=" << uevent.state;
-
         if (uevent.action != "change" || uevent.name != "soc:tri_state_key") {
             return;
         }
